@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VDS CRM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Big+Shoulders+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <section id="loginPanel" class="login card">
+      <div class="brand">VDS <span>CRM</span></div>
+      <p class="muted">Sign in to manage website enquiries.</p>
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input id="username" autocomplete="username" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password" required>
+        <p id="loginError" class="error" role="alert"></p>
+        <button class="primary" type="submit">Sign in</button>
+      </form>
+    </section>
+
+    <section id="dashboard" hidden>
+      <header class="topbar">
+        <div><div class="brand">VDS <span>CRM</span></div><p class="muted">Lead management</p></div>
+        <button id="logoutBtn" class="secondary">Log out</button>
+      </header>
+
+      <div class="stats">
+        <article class="stat card"><span>Total leads</span><strong id="totalCount">0</strong></article>
+        <article class="stat card"><span>New leads</span><strong id="newCount">0</strong></article>
+        <article class="stat card"><span>Appointments</span><strong id="appointmentCount">0</strong></article>
+      </div>
+
+      <section class="card">
+        <div class="toolbar">
+          <div><h1>Leads</h1><p class="muted">Website enquiries and their current status.</p></div>
+          <button id="refreshBtn" class="secondary">Refresh</button>
+        </div>
+        <div class="filters">
+          <input id="searchInput" placeholder="Search name, email, phone" aria-label="Search leads">
+          <select id="statusFilter" aria-label="Filter by status">
+            <option value="">All statuses</option>
+            <option>New Lead</option><option>Contacted</option><option>Qualified</option>
+            <option>Appointment Booked</option><option>Proposal Sent</option><option>Won</option><option>Lost</option>
+          </select>
+        </div>
+        <p id="message" class="muted" role="status"></p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Lead</th><th>Contact</th><th>Enquiry</th><th>Created</th><th>Status</th><th>Save</th></tr></thead>
+            <tbody id="leadsBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

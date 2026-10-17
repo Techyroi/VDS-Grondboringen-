@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>VDS Grondboringen | Licensed well drilling in Assen</title>
+<meta name="description" content="Licensed well drilling in Assen, Netherlands. Book an inspection with VDS Grondboringen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0C2B3B;--ink2:#143F57;--acc:#FF8A1F;--lt:#EDF2F4;--mut:#4D6475;--dm:#A9BFCC;--r:14px;--sh:0 6px 22px rgba(12,43,59,.13);--dsp:'Big Shoulders Display','Arial Narrow',Impact,sans-serif}
+*{box-sizing:border-box;margin:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font:400 16px/1.55 'Public Sans',system-ui,sans-serif;color:var(--ink);background:#fff;padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+h1,h2,h3,.btn,.dsp{font-family:var(--dsp)}
+h2{font-size:clamp(34px,9vw,54px);line-height:1;font-weight:800}
+h3{font-size:25px;font-weight:700;line-height:1.1}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.lt :focus-visible,.wh :focus-visible,.card :focus-visible{outline-color:var(--ink)}
+.s{padding:56px 20px}.w{max-width:1080px;margin:auto}
+.dk{background:var(--ink);color:#fff}.dk2{background:var(--ink2);color:#fff}.lt{background:var(--lt)}
+.lead{color:var(--mut);margin:12px 0 28px;max-width:58ch}.dk .lead{color:var(--dm)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:6px;font-size:21px;font-weight:700;border:2px solid var(--acc);background:var(--acc);color:var(--ink);cursor:pointer;text-decoration:none}
+.btn.g{background:transparent;color:inherit;border-color:currentColor}
+.card{background:#fff;color:var(--ink);border-radius:var(--r);box-shadow:var(--sh);padding:22px}
+.ph{color:var(--mut);font-style:italic}
+/* header + menu */
+.hd{position:fixed;top:0;left:0;right:0;z-index:50;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 20px;color:#fff;transition:background .3s}
+.hd.sc{background:var(--ink)}
+.logo{display:flex;align-items:center;gap:9px;font:800 25px/1 var(--dsp);text-decoration:none}
+.mb{width:48px;height:48px;background:none;border:0;color:inherit;display:grid;place-content:center;gap:6px;cursor:pointer}
+.mb i{display:block;width:26px;height:2px;background:currentColor}
+.menu{position:fixed;inset:0;z-index:90;background:var(--ink);color:#fff;padding:84px 28px 40px;display:flex;flex-direction:column;overflow:auto;transform:translateY(-100%);visibility:hidden;transition:transform .35s,visibility .35s}
+.menu.open{transform:none;visibility:visible}
+.menu a{font:700 38px/1.2 var(--dsp);text-decoration:none;padding:3px 0}
+.mx{position:absolute;top:8px;right:12px;width:48px;height:48px;background:none;border:0;color:#fff;font-size:34px;cursor:pointer}
+/* hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;overflow:hidden;background:var(--ink);display:flex;align-items:flex-end;color:#fff}
+.hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(12,43,59,.6) 0%,rgba(12,43,59,.2) 38%,rgba(12,43,59,.92) 100%)}
+.slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.2) translate(var(--x),var(--y));transition:opacity 1.2s,transform 5.5s linear}
+.slide.on{opacity:1;transform:scale(1.03) translate(0,0)}
+.slide:not(.on){transition:opacity 1.2s,transform 0s 1.2s}
+.hc{position:relative;z-index:2;width:100%;max-width:1080px;margin:auto;padding:0 20px 64px}
+.hero h1{font-size:clamp(42px,12.5vw,96px);line-height:.96;font-weight:800;animation:rise .9s 1s cubic-bezier(.2,.7,.2,1) both}
+.rw{display:block;overflow:hidden;height:1.02em;color:var(--acc)}
+.roll{display:inline-block;white-space:nowrap}
+.roll.in{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+.hero p{max-width:34ch;margin:16px 0 24px;color:#e6eef3;font-size:18px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.bar{position:absolute;left:0;right:0;bottom:0;height:3px;z-index:3;background:rgba(255,255,255,.2)}
+.bar i{display:block;height:100%;width:0;background:var(--acc)}
+.bar i.go{animation:fill var(--t,4.5s) linear forwards}
+@keyframes up{from{transform:translateY(100%);opacity:0}to{transform:none;opacity:1}}
+@keyframes rise{from{transform:translateY(26px);opacity:0}to{transform:none;opacity:1}}
+@keyframes fill{to{width:100%}}
+.splash{position:fixed;inset:0;z-index:100;background:var(--ink);color:#fff;display:grid;place-content:center;text-align:center;gap:6px;transition:opacity .6s,visibility .6s}
+.splash.gone{opacity:0;visibility:hidden}
+.splash b{font:800 clamp(42px,13vw,76px)/1 var(--dsp)}.splash span{color:var(--dm)}
+/* trust */
+.tr{display:grid;grid-template-columns:1fr 1fr;gap:22px 16px}
+.tr b{display:block;font:800 38px/1 var(--dsp);color:var(--acc)}.tr span{color:var(--dm);font-size:14px}
+@media(min-width:760px){.tr{grid-template-columns:repeat(4,1fr)}}
+/* offer */
+.og{display:grid;gap:24px}
+@media(min-width:860px){.og{grid-template-columns:1.2fr 1fr;align-items:start}}
+.vid{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:16/10;background:var(--ink)}
+.vid img{width:100%;height:100%;object-fit:cover;opacity:.7}
+.play{position:absolute;inset:0;margin:auto;width:78px;height:78px;border-radius:50%;background:var(--acc);border:0;cursor:pointer}
+.play:before{content:"";position:absolute;left:31px;top:24px;border:15px solid transparent;border-left:24px solid var(--ink);border-right:0}
+.dur{position:absolute;right:10px;bottom:10px;background:rgba(12,43,59,.88);color:#fff;font-size:13px;padding:2px 8px;border-radius:4px}
+.chs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.chs button{min-height:46px;border:1px solid #bccbd4;background:#fff;border-radius:6px;font:inherit;color:var(--ink);cursor:pointer}
+.chs button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.pill{display:inline-block;background:var(--ink);color:#fff;border-radius:99px;padding:3px 14px;font-size:14px;font-weight:600}
+.card h2{font-size:clamp(30px,7vw,40px);margin:12px 0}
+.ck{list-style:none;padding:0;margin:14px 0}
+.ck li{position:relative;padding-left:30px;margin:9px 0}
+.ck li:before{content:"✓";position:absolute;left:0;top:2px;width:20px;height:20px;border-radius:50%;background:var(--acc);color:var(--ink);font-size:12px;font-weight:800;display:grid;place-content:center}
+.val{display:flex;justify-content:space-between;gap:12px;border-top:1px dashed #b3c4ce;border-bottom:1px dashed #b3c4ce;padding:10px 0;margin:16px 0}
+.proof{margin-top:12px;font-size:14px;color:var(--mut)}
+/* services */
+.sv{display:grid;gap:16px;margin-bottom:34px}
+.sv img{border-radius:var(--r);aspect-ratio:16/10;object-fit:cover;width:100%}
+.sv p{color:var(--mut);margin-top:8px}
+@media(min-width:760px){.sv{grid-template-columns:1fr 1fr;align-items:center;gap:36px}.sv:nth-child(even) img{order:2}}
+/* process */
+.pr{display:grid;gap:0}
+.st{display:grid;grid-template-columns:54px 1fr;gap:16px;padding:18px 0;border-top:1px solid rgba(255,255,255,.16)}
+.st i{width:54px;height:54px;border-radius:50%;background:var(--acc);color:var(--ink);font:800 28px/54px var(--dsp);text-align:center;font-style:normal}
+.st p{color:var(--dm)}
+@media(min-width:900px){.pr{grid-template-columns:repeat(5,1fr);gap:22px}.st{grid-template-columns:1fr;border-top:0}}
+/* guarantee */
+.gh{display:flex;align-items:center;gap:18px;margin-bottom:26px}
+.gg{display:grid;gap:14px}
+.gg p{color:var(--mut);margin-top:6px}
+@media(min-width:620px){.gg{grid-template-columns:1fr 1fr}}
+@media(min-width:960px){.gg{grid-template-columns:repeat(4,1fr)}}
+/* controls */
+.seg{display:inline-flex;border:2px solid var(--ink);border-radius:6px;overflow:hidden;margin:6px 0 4px;flex-wrap:wrap}
+.seg button{min-height:44px;padding:0 16px;background:#fff;border:0;font:600 15px 'Public Sans',sans-serif;color:var(--ink);cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--ink);color:#fff}
+.pl{display:grid;gap:16px;margin-top:18px}
+@media(min-width:760px){.pl{grid-template-columns:repeat(3,1fr);align-items:stretch}}
+.pl .card{border:2px solid #dbe5ea;box-shadow:none}
+.pl .hi{background:var(--ink);color:#fff;border-color:var(--acc);box-shadow:var(--sh)}
+.price{font:800 38px/1.1 var(--dsp);margin:10px 0 4px}
+.pl .note{font-size:14px;color:var(--mut)}.pl .hi .note{color:var(--dm)}
+.tools{display:grid;gap:18px}
+@media(min-width:860px){.tools{grid-template-columns:1fr 1fr}}
+label{display:block;font-weight:600;margin:14px 0 4px}
+input,select,textarea{width:100%;min-height:48px;border-radius:6px;border:1px solid #9bb0bd;padding:10px 12px;font:inherit;background:#fff;color:var(--ink)}
+input[type=range]{padding:0;accent-color:var(--acc);border:0;min-height:36px}
+.out{font:800 40px/1.1 var(--dsp);margin:14px 0 4px}
+.sm{font-size:14px;color:var(--mut)}
+/* table */
+.tw{overflow-x:auto;border-radius:var(--r);box-shadow:var(--sh)}
+table{border-collapse:collapse;width:100%;min-width:560px;background:#fff}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid #e1e9ed;vertical-align:top}
+th{font:700 20px var(--dsp)}
+.v{background:var(--ink);color:#fff;border-bottom-color:var(--ink2)}
+td.o{color:var(--mut)}
+/* before/after + gallery */
+.ba{position:relative;aspect-ratio:4/3;max-width:760px;margin:0 auto 34px;border-radius:var(--r);overflow:hidden;--p:50%;background:#000}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba .af{clip-path:inset(0 0 0 var(--p))}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;z-index:3}
+.ba:focus-within{outline:3px solid var(--acc);outline-offset:3px}
+.hl{position:absolute;top:0;bottom:0;left:var(--p);width:3px;margin-left:-1.5px;background:#fff;z-index:2;pointer-events:none}
+.hl:after{content:"↔";position:absolute;top:50%;left:50%;width:40px;height:40px;margin:-20px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-content:center;font-weight:700}
+.tag{position:absolute;top:12px;z-index:2;background:rgba(12,43,59,.85);color:#fff;font-size:12px;font-weight:600;padding:3px 10px;border-radius:4px}
+.gl{columns:2;column-gap:10px}
+.gl img{width:100%;margin-bottom:10px;border-radius:10px;break-inside:avoid}
+@media(min-width:760px){.gl{columns:3}}
+/* reviews */
+.tc{max-width:720px;margin:0 auto}
+.tc blockquote{font:700 clamp(26px,6vw,36px)/1.15 var(--dsp);margin:10px 0 14px}
+.stars{color:var(--ink);letter-spacing:3px;font-size:20px}
+.ctl{display:flex;align-items:center;gap:10px;margin-top:18px}
+.ctl button{width:48px;height:48px;border-radius:50%;border:2px solid var(--ink);background:#fff;color:var(--ink);font-size:20px;cursor:pointer}
+.dots{display:flex;gap:4px;margin:0 auto 0 8px}
+.dots button{width:44px;height:44px;border:0;background:none;cursor:pointer;display:grid;place-content:center;padding:0}
+.dots button:before{content:"";width:12px;height:12px;border-radius:50%;background:#b3c4ce}
+.dots button[aria-current=true]:before{background:var(--ink)}
+/* areas, team, blog */
+.ar{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.ar div{border:2px solid #dbe5ea;border-radius:var(--r);padding:14px}
+.ar b{font:700 24px var(--dsp)}.ar span{display:block;font-size:14px;color:var(--mut)}
+@media(min-width:760px){.ar{grid-template-columns:repeat(4,1fr)}}
+.map{border-radius:var(--r);aspect-ratio:16/7;min-height:140px;display:grid;place-content:center;text-align:center;padding:16px;background:repeating-linear-gradient(45deg,#dfe8ed 0 14px,#e8eff3 14px 28px)}
+.tm{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(min-width:760px){.tm{grid-template-columns:repeat(4,1fr)}}
+.tm img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--r);filter:grayscale(1)}
+.tm h3{margin-top:10px}
+.bl{display:grid;gap:16px}
+@media(min-width:760px){.bl{grid-template-columns:repeat(3,1fr)}}
+.bl .card{box-shadow:none;border:2px solid #dbe5ea}
+.bl small{font-weight:600;color:var(--mut)}.bl h3{margin:6px 0}.bl p{color:var(--mut);margin-bottom:10px}
+/* contact + footer */
+.cg{display:grid;gap:30px}
+@media(min-width:860px){.cg{grid-template-columns:1fr 1.2fr}}
+.cg address{font-style:normal;color:var(--dm);margin-top:14px;line-height:1.8}
+.cg address b{color:#fff}
+#thx{outline:0}
+.ft{background:var(--ink2);color:#fff;padding:44px 20px}
+.ft .w{display:grid;gap:26px}
+@media(min-width:760px){.ft .w{grid-template-columns:1.5fr 1fr 1fr}}
+.ft p,.ft a{color:var(--dm)}.ft ul{list-style:none;padding:0}.ft li{margin:6px 0}
+/* persistent */
+.sb{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.4fr;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:var(--ink);color:#fff;box-shadow:0 -4px 20px rgba(0,0,0,.25)}
+.sb .btn{min-height:48px}
+@media(min-width:900px){.sb{left:auto;right:20px;bottom:20px;border-radius:12px;grid-template-columns:auto auto}body{padding-bottom:0}}
+.cb,.bt{position:fixed;z-index:61;bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+@media(min-width:900px){.cb,.bt{bottom:100px}}
+.cb{right:14px;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.cp{min-height:48px;padding:0 18px;border-radius:99px;border:2px solid var(--ink);background:#fff;color:var(--ink);font:700 19px var(--dsp);cursor:pointer;box-shadow:var(--sh)}
+.tip{background:var(--ink);color:#fff;font-size:14px;padding:6px 12px;border-radius:10px}
+.cw{position:fixed;z-index:62;right:14px;bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(340px,calc(100vw - 28px));background:#fff;color:var(--ink);border-radius:var(--r);box-shadow:0 10px 40px rgba(12,43,59,.3);overflow:hidden}
+@media(min-width:900px){.cw{bottom:100px}}
+.cw header{display:flex;justify-content:space-between;align-items:center;background:var(--ink);color:#fff;padding:6px 6px 6px 16px;font:700 20px var(--dsp)}
+.cw header button{width:44px;height:44px;border:0;background:none;color:#fff;font-size:26px;cursor:pointer}
+#log_{padding:14px;max-height:220px;overflow:auto;display:grid;gap:8px}
+#log_ p{background:var(--lt);border-radius:10px;padding:8px 12px;font-size:15px;justify-self:start;max-width:92%}
+#log_ p.me{background:var(--ink);color:#fff;justify-self:end}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0 14px 14px}
+.chips button{min-height:44px;padding:0 14px;border-radius:99px;border:1px solid var(--ink);background:#fff;color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
+.bt{left:14px;width:48px;height:48px;border-radius:50%;border:0;background:#fff;color:var(--ink);box-shadow:var(--sh);font-size:22px;cursor:pointer;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.bt.show{opacity:1;visibility:visible}
+.hd.sc{box-shadow:0 2px 14px rgba(0,0,0,.2)}
+/* responsive refinements */
+html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+body{overflow-x:clip}
+input,select,textarea{font-size:16px}
+.hd{height:calc(64px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px);padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px))}
+.logo{white-space:nowrap;font-size:clamp(20px,6vw,25px)}
+.menu{padding-top:calc(84px + env(safe-area-inset-top,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
+.mx{top:calc(8px + env(safe-area-inset-top,0px))}
+.hc{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.sb{padding-left:max(14px,env(safe-area-inset-left,0px));padding-right:max(14px,env(safe-area-inset-right,0px))}
+.sb .btn{padding:0 10px;font-size:clamp(17px,5vw,21px);white-space:nowrap}
+.ba input{touch-action:pan-y}
+.cw{display:flex;flex-direction:column;max-height:calc(100vh - 140px);max-height:calc(100svh - 140px - env(safe-area-inset-bottom,0px))}
+#log_{flex:1 1 auto;min-height:72px}
+.map{aspect-ratio:auto}
+@media(max-width:759px){
+.s{padding:44px 18px}
+.card{padding:18px}
+.cta .btn{flex:1 1 140px}
+.gh svg{width:72px;height:72px}
+.tw{box-shadow:none;background:none;overflow:visible}
+table,tbody,tr,th,td{display:block;width:100%}
+table{min-width:0;background:none}
+thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+tr{background:#fff;border-radius:var(--r);box-shadow:var(--sh);margin-bottom:12px;overflow:hidden}
+th[scope=row]{border:0;padding:14px 16px 8px;font:700 22px var(--dsp)}
+td{border:0;padding:10px 16px}
+td.v:before,td.o:before{display:block;font-size:12px;font-weight:600;opacity:.75}
+td.v:before{content:"VDS Grondboringen"}
+td.o:before{content:"Other providers"}
+}
+@media(max-width:380px){h3{font-size:22px}.price{font-size:32px}.out{font-size:34px}.menu a{font-size:34px}.seg button{padding:0 12px}}
+@media(max-height:480px) and (orientation:landscape){.hero{min-height:520px}.menu a{font-size:28px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.slide{transform:none!important}.splash,.bar{display:none}}
+
+
+.hd-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#languageSelect {
+  width: 64px;
+  min-height: 40px;
+  padding: 4px 6px;
+  border: 1px solid rgba(255,255,255,.65);
+  border-radius: 6px;
+  background: var(--ink);
+  color: #fff;
+  font: 600 14px 'Public Sans', sans-serif;
+  cursor: pointer;
+}
+
+#languageSelect option {
+  background: var(--ink);
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.team-card {
+  min-width: 0;
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--r);
+  filter: grayscale(1);
+}
+
+.team-card h3 {
+  margin-top: 12px;
+}
+
+.team-role {
+  margin-top: 5px;
+  font-weight: 600;
+  color: var(--ink2);
+  line-height: 1.35;
+}
+
+.team-expertise {
+  margin-top: 8px;
+  color: var(--mut);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/* FOOTER SOCIAL MEDIA ICONS */
+.ft-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.ft-social a {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 8px;
+  color: #fff;
+  background: rgba(255,255,255,.06);
+  transition: background .2s ease, color .2s ease,
+              transform .2s ease;
+}
+
+.ft-social a:hover {
+  background: var(--acc);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+.ft-social svg {
+  width: 21px;
+  height: 21px;
+  fill: currentColor;
+}
+
+.ft-social a:focus-visible {
+  outline: 3px solid var(--acc);
+  outline-offset: 3px;
+}
+
+.ft-brand p {
+  line-height: 1.8;
+}
+
+.ft-brand a:not(.logo) {
+  text-decoration: none;
+}
+
+.ft-brand a:not(.logo):hover {
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ft-social a {
+    transition: none;
+  }
+
+  .ft-social a:hover {
+    transform: none;
+  }
+}
+
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.chat-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.chat-form button {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+.chat-form button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+
+#chatLeadPanel {
+  padding: 14px;
+  border-top: 1px solid #e5e7eb;
+}
+
+#chatLeadPanel label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#chatLeadPanel input,
+#chatLeadPanel select,
+#chatLeadPanel textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+  font: inherit;
+}
+
+#chatLeadPanel button {
+  margin: 10px 6px 0 0;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+#chatLeadPanel button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#chatLeadSummary {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  margin: 12px 0;
+}
+
+#chatLeadStatus {
+  font-size: 13px;
+}
+
+
+/* ASK VDS — CHAT WIDGET POLISH */
+
+.cw {
+  overflow: hidden;
+  border-radius: 22px;
+  box-shadow: 0 18px 55px rgba(7, 28, 41, 0.22);
+}
+
+.cw header {
+  padding: 20px 22px;
+  background: #0d2e3d;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#log_ {
+  padding: 18px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+#log_ p {
+  width: fit-content;
+  max-width: 88%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px 15px;
+  border-radius: 15px 15px 15px 4px;
+  background: #eef3f5;
+  color: #173746;
+  font-size: 15px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+#log_ p.me {
+  align-self: flex-end;
+  background: #103d50;
+  color: #fff;
+  border-radius: 15px 15px 4px 15px;
+}
+
+#chatInspectionAction {
+  padding: 8px 16px 12px !important;
+}
+
+#chatInspectionButton {
+  width: 100%;
+  padding: 13px 16px;
+  border: 0;
+  border-radius: 10px;
+  background: #ff941f;
+  color: #152d38;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#chatInspectionButton:hover {
+  background: #ffab45;
+  transform: translateY(-1px);
+}
+
+#chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 16px 16px;
+}
+
+#chips button {
+  padding: 10px 14px;
+  border: 1px solid #cbd8de;
+  border-radius: 999px;
+  background: #fff;
+  color: #173746;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+#chips button:hover {
+  border-color: #103d50;
+  background: #f0f6f8;
+}
+
+.chat-form {
+  gap: 10px;
+  padding: 14px 16px;
+  border-top: 1px solid #e5edf0;
+  background: #fff;
+}
+
+.chat-form input {
+  min-width: 0;
+  padding: 13px 14px;
+  border-color: #d5e0e5;
+  border-radius: 11px;
+  color: #173746;
+  font-size: 14px;
+}
+
+.chat-form button {
+  padding: 12px 17px;
+  border-radius: 11px;
+  background: #103d50;
+  color: #fff;
+  font-size: 14px;
+}
+
+#chatLeadPanel {
+  padding: 16px;
+  border-top: 1px solid #e5edf0;
+  background: #f8fafb;
+}
+
+#chatLeadIntro {
+  margin: 0 0 12px;
+  color: #244452;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#chatLeadPanel label {
+  margin: 12px 0 6px;
+  color: #244452;
+  font-size: 13px;
+}
+
+#chatLeadPanel input,
+#chatLeadPanel select,
+#chatLeadPanel textarea {
+  padding: 12px;
+  border-color: #d5e0e5;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 14px;
+}
+
+#chatLeadPanel button {
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+#chatLeadPanel #leadReviewButton,
+#chatLeadPanel #leadConfirmButton {
+  background: #103d50;
+  color: #fff;
+}
+
+#chatLeadPanel #leadEditButton {
+  border: 1px solid #cbd8de;
+  background: #fff;
+  color: #173746;
+}
+
+#chatLeadStatus {
+  margin: 10px 0 0;
+  color: #244452;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .cw {
+    border-radius: 18px;
+  }
+
+  #log_ {
+    max-height: 260px;
+    padding: 14px 12px 8px;
+  }
+
+  #log_ p {
+    max-width: 94%;
+    font-size: 14px;
+  }
+
+  #chips {
+    padding: 8px 12px 12px;
+    gap: 7px;
+  }
+
+  #chips button {
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+
+  .chat-form {
+    padding: 12px;
+  }
+
+  .chat-form button {
+    padding: 11px 13px;
+  }
+}
+
+
+/* ASK VDS — FIX CHAT SCROLLING ON MOBILE */
+
+.cw {
+  display: flex;
+  flex-direction: column;
+  height: min(80dvh, 720px);
+  max-height: 80vh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.cw[hidden] {
+  display: none !important;
+}
+
+/* Let the conversation and form scroll together */
+#log_ {
+  flex: 1 1 auto;
+  min-height: 100px;
+  max-height: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Keep the header and message composer visible */
+.cw > header,
+.chat-form {
+  flex-shrink: 0;
+}
+
+/* Keep suggestions and inspection action in the layout */
+#chips,
+#chatInspectionAction {
+  flex-shrink: 0;
+}
+
+/* Don't let the lead form get clipped */
+#chatLeadPanel {
+  flex: 0 1 auto;
+  min-height: 0;
+  max-height: 40%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure long forms fit narrow screens */
+#chatLeadForm {
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .cw {
+    height: 82dvh;
+    max-height: 82vh;
+    width: min(100%, 440px);
+  }
+
+  #log_ {
+    min-height: 80px;
+  }
+
+  #chatLeadPanel {
+    max-height: 45%;
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+<div id="top"></div>
+<div class="splash" id="splash" aria-hidden="true"><b>VDS Grondboringen</b><span>Well drilling in Assen</span></div>
+
+
+<header class="hd" id="hd">
+  <a class="logo" href="#top" aria-label="VDS Grondboringen, back to top">
+    <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2c6 8 10 12 10 18a10 10 0 0 1-20 0C6 14 10 10 16 2z" fill="#FF8A1F"/><path d="M16 12v12M12.5 20.5 16 24l3.5-3.5" stroke="#0C2B3B" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    VDS Grondboringen
+  </a>
+
+  <div class="hd-right">
+    <label for="languageSelect" class="sr-only">Choose language</label>
+    <select id="languageSelect" aria-label="Choose language">
+      <option value="en">EN</option>
+      <option value="nl">NL</option>
+    </select>
+    <button class="mb" id="mb" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+</header>
+
+
+<nav class="menu" id="menu" aria-label="Main menu">
+  <button class="mx" id="mx" aria-label="Close menu">×</button>
+  <a href="#offer">Book an inspection</a><a href="#services">What we do</a><a href="#process">How it works</a><a href="#guarantee">Guarantee</a><a href="#plans">Plans</a><a href="#estimate">Estimate</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#areas">Where we work</a><a href="#team">Team</a><a href="#contact">Contact</a>
+</nav>
+
+<main>
+<section class="hero" id="hero" aria-label="Introduction">
+  <div id="reel"></div>
+  <div class="hc">
+    <h1><span>We drill wells that give</span><span class="rw"><span class="roll" id="roll_">quality water</span></span></h1>
+    <p>Licensed well drilling in Assen for homeowners, investors and developers.</p>
+    <div class="cta"><a class="btn" href="#contact">Book an inspection</a><a class="btn g call" href="#contact">Call us</a></div>
+  </div>
+  <div class="bar" aria-hidden="true"><i id="bar_"></i></div>
+</section>
+
+<section class="s dk2" aria-label="At a glance"><div class="w tr" id="trust"></div></section>
+
+<section class="s lt" id="offer">
+  <div class="w">
+    <h2>See how we work before you commit</h2>
+    <p class="lead">Book an inspection and we will talk through what drilling a well on your plot involves.</p>
+    <div class="og">
+      <div>
+        <div class="vid"><img src="https://images.unsplash.com/photo-1748036564757-2bf6ead3488e?auto=format&fit=crop&w=900&q=75" alt="Drilling rig set up in a grassy field" loading="lazy"><button class="play" id="play" aria-label="Play video (placeholder)"></button><span class="dur">[0:00]</span></div>
+        <div class="chs" id="chs" role="group" aria-label="Video chapters"></div>
+      </div>
+      <div class="card">
+        <span class="pill">Book an inspection</span>
+        <h2>Water you can count on, from a licensed team</h2>
+        <ul class="ck"><li>Licensed well drilling</li><li>Excellent delivery guarantee</li><li>Support after drilling, backed by warranty</li><li>25 years of experience</li></ul>
+        <div class="val"><span>Inspection fee</span><b class="ph">100% FREE</b></div>
+        <a class="btn" href="#contact">Book an inspection</a>
+        <p class="proof"><span class="stars" aria-hidden="true">★★★★★</span> 50+ five-star reviews</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="services"><div class="w"><h2>What we do</h2><p class="lead">Well drilling for homes, investment properties and development sites.</p><div id="sv"></div></div></section>
+
+<section class="s dk" id="process"><div class="w"><h2>How it works</h2><p class="lead">Five steps from first call to running water.</p><div class="pr" id="pr"></div></div></section>
+
+<section class="s lt" id="guarantee"><div class="w">
+  <div class="gh"><svg viewBox="0 0 120 120" width="96" height="96" aria-hidden="true"><circle cx="60" cy="60" r="56" fill="#0C2B3B"/><circle cx="60" cy="60" r="47" fill="none" stroke="#FF8A1F" stroke-width="2" stroke-dasharray="4 4"/><path d="M38 62l15 15 30-32" stroke="#FF8A1F" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><h2>Our guarantee</h2></div>
+  <div class="gg" id="gg"></div>
+</div></section>
+
+<section class="s" id="plans"><div class="w">
+  <h2>Plans</h2><p class="lead">Three plans to match your site and budget. Final prices are confirmed at the inspection.</p>
+  <div class="seg" id="unit" role="group" aria-label="Price unit"><button aria-pressed="true" data-u="per metre">Per metre</button><button aria-pressed="false" data-u="per project">Per project</button></div>
+  <p class="sm" id="save_"></p>
+  <div class="pl" id="pl"></div>
+  <p class="sm" style="margin-top:14px">Delivery guarantee and support after drilling are part of how we work.</p>
+</div></section>
+
+<section class="s lt" id="estimate"><div class="w">
+  <h2>Estimate your well</h2><p class="lead">Two quick tools.</p>
+  <div class="tools">
+    <div class="card">
+      <h3>Drilling estimate</h3>
+      <label for="c_depth">Well depth: <output id="c_dv" for="c_depth"></output></label>
+      <input id="c_depth" type="range" min="20" max="150" step="5" value="60">
+      <label for="c_dia">Pipe diameter</label>
+      <select id="c_dia"><option value="1">125 mm</option><option value="1.25">160 mm</option><option value="1.6">200 mm</option></select>
+      <label id="gl_">Ground type</label>
+      <div class="seg" id="gr" role="group" aria-labelledby="gl_"><button aria-pressed="true" data-v="1">Soft</button><button aria-pressed="false" data-v="1.3">Mixed</button><button aria-pressed="false" data-v="1.7">Hard</button></div>
+      <div class="out" id="c_out" aria-live="polite"></div>
+      <p class="sm">Illustrative range, not a quote. Final price follows your inspection.</p>
+    </div>
+    <div class="card">
+      <h3>Payment plan</h3>
+      <label for="f_amt">Amount: <output id="f_av" for="f_amt"></output></label>
+      <input id="f_amt" type="range" min="2000" max="30000" step="500" value="8000">
+      <label id="fl_">Months</label>
+      <div class="seg" id="fm" role="group" aria-labelledby="fl_"><button aria-pressed="false">12</button><button aria-pressed="true">24</button><button aria-pressed="false">36</button><button aria-pressed="false">60</button></div>
+      <div class="out" id="f_m" aria-live="polite"></div>
+      <p id="f_i"></p>
+      <p class="sm">6% yearly interest applicable.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="s" id="compare"><div class="w">
+  <h2>What to ask any well driller</h2><p class="lead">Five questions worth asking before you hire anyone, us included.</p>
+  <div class="tw"><table><thead><tr><th scope="col">Ask this</th><th scope="col" class="v">VDS Grondboringen</th><th scope="col">Other providers</th></tr></thead><tbody id="cmp"></tbody></table></div>
+</div></section>
+
+<section class="s dk" id="gallery"><div class="w">
+  <h2>On site</h2><p class="lead">Drag the handle to compare a dry plot with a watered one.</p>
+  <div class="ba" id="ba">
+    <img src="https://images.unsplash.com/photo-1774005548145-b6d63d91e313?auto=format&fit=crop&w=1000&q=75" alt="Dry grass field before drilling" loading="lazy">
+    <img class="af" src="https://images.unsplash.com/photo-1651860282417-50eb7e16f48e?auto=format&fit=crop&w=1000&q=75" alt="Green garden around a cottage after drilling" loading="lazy">
+    <span class="tag" style="left:12px">BEFORE</span><span class="tag" style="right:12px">AFTER</span>
+    <div class="hl"></div>
+    <input type="range" id="ba_r" min="0" max="100" value="50" aria-label="Compare before and after">
+  </div>
+  <div class="gl" id="gl"></div>
+  <p class="sm" style="margin-top:6px;color:var(--dm)">Project photos illustration Showcase.</p>
+</div></section>
+
+<section class="s lt" id="reviews"><div class="w tc">
+  <h2>What customers say</h2>
+  <p class="lead"><b>50 five-star reviews.</b> We are super excited to share our experiences with VDS.</p>
+  <div class="card" id="tc" aria-live="off"></div>
+  <div class="ctl"><button id="tp" aria-label="Previous review">←</button><div class="dots" id="td"></div><button id="tn" aria-label="Next review">→</button></div>
+</div></section>
+
+
+<section class="s" id="areas">
+  <div class="w">
+    <h2>Where we work</h2>
+    <p class="lead">
+      Based in Assen, Drenthe. We serve customers in Assen and surrounding
+      towns, subject to project requirements and availability.
+    </p>
+
+    <div class="ar" id="ar"></div>
+
+    <div class="map" style="display:block;padding:0;overflow:hidden;background:#EDF2F4;">
+      <iframe
+        src="https://www.google.com/maps?q=Amerikaweg%2023%2C%209407%20TJ%20Assen%2C%20Netherlands&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;display:block;"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Google Maps location of VDS Grondboringen in Assen">
+      </iframe>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;">
+      <a
+        class="btn"
+        href="https://maps.app.goo.gl/vUCTsgLgGuAEffqr9"
+        target="_blank"
+        rel="noopener noreferrer">
+        Open Google Maps &amp; Get Directions
+      </a>
+
+      <a
+        class="btn g"
+        href="https://www.google.com/maps/search/?api=1&query=Amerikaweg%2023%2C%209407%20TJ%20Assen%2C%20Netherlands"
+        target="_blank"
+        rel="noopener noreferrer">
+        View Larger Map
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="s lt" id="team">
+  <div class="w">
+    <h2>The team</h2>
+    <p class="lead">
+      Meet the professionals behind our drilling projects, from site assessment
+      and ground investigation to well installation and aftercare.
+    </p>
+    <div class="tm" id="tm"></div>
+  </div>
+</section>
+
+
+
+<section class="s" id="blog">
+  <div class="w">
+    <span class="pill">KNOWLEDGE &amp; ADVICE</span>
+    <h2 style="margin-top:16px">Before you drill</h2>
+    <p class="lead">
+      Planning a water well? Explore practical advice on drilling,
+      ground conditions, water quality and preparing your property.
+    </p>
+
+    <div class="bl" id="bl"></div>
+
+    <div style="text-align:center;margin-top:30px">
+      <a class="btn" href="#contact">Discuss your project</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="s dk" id="contact"><div class="w cg">
+  <div>
+    <h2>Book your inspection</h2>
+    <p class="lead">Tell us about your site and we will plan a visit.</p>
+    <address><b>VDS Grondboringen</b><br>Amerikaweg 23<br>9407 TJ Assen, Netherlands<br>Monday to Friday, 9:00 to 18:00<br>Phone: <span class="ph" style="color:var(--dm)">+31592268360</span><br>Email: <span class="ph" style="color:var(--dm)">info@vdsgrondboringen.nl</span></address>
+  </div>
+  <div class="card">
+    <!-- No backend: wire this form to your email/CRM service before launch. -->
+    <form id="cform" novalidate>
+      <label for="f_n" style="margin-top:0">Full name</label><input id="f_n" autocomplete="name" required>
+      <label for="f_p">Phone</label><input id="f_p" type="tel" autocomplete="tel" required>
+      <label for="f_e">Email</label><input id="f_e" type="email" autocomplete="email" required>
+      <label for="f_t">I am a</label><select id="f_t"><option>Homeowner</option><option>Investor</option><option>Real estate developer</option></select>
+      <label for="f_d">Preferred day</label><input id="f_d" type="date">
+      <label for="f_m2">Anything we should know?</label><textarea id="f_m2" rows="3"></textarea>
+      <p class="sm" id="err_" role="alert"></p>
+      <button class="btn" type="submit" style="margin-top:14px;width:100%">Book my inspection</button>
+    </form>
+    <div id="thx" tabindex="-1" hidden><h3>Thank you, <span id="thx_n"></span>.</h3><p style="margin-top:8px">Your request is in. We will be in touch to confirm a day.</p></div>
+  </div>
+</div></section>
+</main>
+
+
+<footer class="ft">
+  <div class="w">
+
+    <!-- Company information and social media -->
+    <div class="ft-brand">
+      <a class="logo" href="#top" style="color:#fff">
+        VDS Grondboringen
+      </a>
+
+      <p style="margin-top:10px;max-width:40ch">
+        Professional well drilling services in Assen, Netherlands.
+        <br>
+        <a href="tel:+31653876255">+31 6 53876255</a>
+      </p>
+
+      <p style="margin-top:18px;font-weight:600;color:#fff">
+        Follow us
+      </p>
+
+      <div class="ft-social">
+        <!-- Replace # with the actual Facebook profile URL -->
+        <a href="#" target="_blank" rel="noopener noreferrer"
+           aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8z"/>
+          </svg>
+        </a>
+
+        <!-- Replace # with the actual Instagram profile URL -->
+        <a href="#" target="_blank" rel="noopener noreferrer"
+           aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="17.5" cy="6.8" r="1.2"/>
+          </svg>
+        </a>
+
+        <!-- Replace # with the actual LinkedIn profile URL -->
+        <a href="#" target="_blank" rel="noopener noreferrer"
+           aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4M3.3 9h3.4v12H3.3zM9 9h3.3v1.6h.1A3.7 3.7 0 0 1 15.8 9c3.5 0 4.2 2.3 4.2 5.3V21h-3.4v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1V21H9z"/>
+          </svg>
+        </a>
+
+        <!-- Replace # with the actual YouTube channel URL -->
+        <a href="#" target="_blank" rel="noopener noreferrer"
+           aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M23 7a3 3 0 0 0-2.1-2.1C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7a31 31 0 0 0-.5 5 31 31 0 0 0 .5 5 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5A3 3 0 0 0 23 17a31 31 0 0 0 .5-5 31 31 0 0 0-.5-5M9.6 15.5v-7l6 3.5z"/>
+          </svg>
+        </a>
+
+        <!-- Your supplied Google Maps link -->
+        <a href="https://maps.app.goo.gl/vUCTsgLgGuAEffqr9"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Google Maps location" title="Find us on Google Maps">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 22s8-7.2 8-13a8 8 0 1 0-16 0c0 5.8 8 13 8 13z" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </a>
+      </div>
+
+      <p style="margin-top:16px;font-size:13px">
+        <a href="https://maps.app.goo.gl/vUCTsgLgGuAEffqr9"
+           target="_blank" rel="noopener noreferrer">
+          Find us on Google Maps ↗
+        </a>
+      </p>
+    </div>
+
+    <!-- Company navigation -->
+    <div>
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#services">What we do</a></li>
+        <li><a href="#guarantee">Guarantee</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#areas">Service areas</a></li>
+      </ul>
+    </div>
+
+    <!-- Customer actions -->
+    <div>
+      <h3>Get started</h3>
+      <ul>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#estimate">Estimate</a></li>
+        <li><a href="#gallery">Our projects</a></li>
+        <li><a href="#contact">Book an inspection</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+
+<div class="sb"><a class="btn g call" href="#contact">Call us</a><a class="btn" href="#contact">Book an inspection</a></div>
+
+<div class="cb" id="cb"><span class="tip" id="tip_">Questions? Ask here</span><button class="cp" id="cp" aria-expanded="false" aria-controls="cw">Chat</button></div>
+<div class="cw" id="cw" role="dialog" aria-label="Chat" hidden>
+  <header>Ask VDS<button id="cx" aria-label="Close chat">×</button></header>
+  <div id="log_" aria-live="polite"><p>Hi! What would you like to know?</p></div>
+
+
+<div id="chatInspectionAction" style="padding: 0 12px 10px;">
+  <button id="chatInspectionButton" type="button">
+    Request an inspection
+  </button>
+</div>
+
+
+<div class="chips" id="chips"></div>
+
+<form id="chatForm" class="chat-form">
+  <input
+    id="chatInput"
+    type="text"
+    maxlength="1000"
+    placeholder="Type your question..."
+    aria-label="Type your question"
+    autocomplete="off"
+    required
+  />
+  <button id="chatSend" type="submit">Send</button>
+</form>
+
+
+<div id="chatLeadPanel" hidden>
+  <div id="chatLeadEntry">
+    <p id="chatLeadIntro">
+      Would you like VDS to contact you about your project?
+      Enter your details below.
+    </p>
+
+    <form id="chatLeadForm">
+      <label for="leadName">Full name *</label>
+      <input id="leadName" name="name" type="text"
+        maxlength="120" autocomplete="name" required />
+
+      <label for="leadPhone">Phone number *</label>
+      <input id="leadPhone" name="phone" type="tel"
+        maxlength="40" autocomplete="tel" required />
+
+      <label for="leadEmail">Email address *</label>
+      <input id="leadEmail" name="email" type="email"
+        maxlength="254" autocomplete="email" required />
+
+      <label for="leadType">Customer type</label>
+      <select id="leadType" name="customerType">
+        <option value="Homeowner">Homeowner</option>
+        <option value="Investor">Investor</option>
+        <option value="Real estate developer">
+          Real estate developer
+        </option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="leadLocation">Project location *</label>
+      <input id="leadLocation" name="location" type="text"
+        maxlength="200" required />
+
+      <label for="leadDay">Preferred day (optional)</label>
+      <input id="leadDay" name="preferredDay" type="text"
+        maxlength="20" placeholder="e.g. Monday" />
+
+      <label for="leadMessage">Project details</label>
+      <textarea id="leadMessage" name="message"
+        maxlength="2500" rows="3"></textarea>
+
+      <button type="submit" id="leadReviewButton">
+        Review details
+      </button>
+    </form>
+  </div>
+
+  <div id="chatLeadReview" hidden>
+    <p>Please check your details before sending them to VDS.</p>
+    <div id="chatLeadSummary"></div>
+    <button type="button" id="leadConfirmButton">
+      Confirm and send
+    </button>
+    <button type="button" id="leadEditButton">
+      Edit details
+    </button>
+  </div>
+
+  <p id="chatLeadStatus" role="status" aria-live="polite"></p>
+</div>
+
+
+</div>
+<button class="bt" id="bt" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+const $=id=>document.getElementById(id),T=4500,RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const U=(id,w)=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=75`;
+const eur=n=>n.toLocaleString('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+const PHONE=''; /* add e.g. '+31...' to turn every "Call us" button into a tel: link */
+document.querySelectorAll('.call').forEach(a=>{if(PHONE)a.href='tel:'+PHONE});
+document.documentElement.style.setProperty('--t',T+'ms');
+
+/* HERO: [photoId, panX, panY] */
+const HS=[['1748036564757-2bf6ead3488e',-3,2],['1789122079737-b7683bc00ad2',3,-2],['1693907986952-3cd372e4c9d8',-2,-3],['1574482620811-1aa16ffe3c82',2,3]];
+const HA=['Drilling rig set up in a grassy field','Tractor-mounted earth auger drilling','Blue water pipe laid on the ground','Hands under a stream of clean water'];
+const W=['quality water','clean water','water you trust','your own water'];
+$('reel').innerHTML=HS.map(([id,x,y],k)=>`<img class="slide${RM&&!k?' on':''}" style="--x:${x}%;--y:${y}%" src="${U(id,1400)}" alt="${HA[k]}"${k?'':' fetchpriority="high"'}>`).join('');
+const sl=[...document.querySelectorAll('.slide')],roll=$('roll_'),bar=$('bar_');let hi=0;
+function hs(){
+  sl.forEach((s,k)=>s.classList.toggle('on',k===hi));
+  roll.textContent=W[hi];roll.classList.remove('in');void roll.offsetWidth;roll.classList.add('in');
+  bar.classList.remove('go');void bar.offsetWidth;bar.classList.add('go');
+  hi=(hi+1)%HS.length;
+}
+if(!RM)setTimeout(()=>{hs();setInterval(hs,T)},1000);
+setTimeout(()=>$('splash').classList.add('gone'),1100);
+
+/* DATA-DRIVEN SECTIONS */
+$('trust').innerHTML=[['25 years','of experience'],['50','five-star reviews'],['Licensed','well drilling'],['Mon–Fri','9:00 to 18:00']].map(([a,b])=>`<div><b>${a}</b><span>${b}</span></div>`).join('');
+$('sv').innerHTML=[
+ ['1748036564757-2bf6ead3488e','Drilling rig in a grassy field','Well drilling','We drill wells for homes, investment properties and development sites, planned around the water you need.'],
+ ['1607472586893-edb57bdc0e39','Metal water pipes','Drilling and plumbing','Once the well is down, we connect it so the water reaches your taps. [Confirm scope.]'],
+ ['1521207418485-99c705420785','Water running from a tap','Support after drilling','Our warranty backs the support you get once the drilling is done, so you are not left on your own.']
+].map(([i,a,h,p])=>`<div class="sv"><img src="${U(i,800)}" alt="${a}" loading="lazy"><div><h3>${h}</h3><p>${p}</p></div></div>`).join('');
+$('pr').innerHTML=[['Book an inspection','Pick a day and we come to your site.'],['Site check','We look at the ground and talk through what you need.'],['Choose a plan','Basic, Standard or Premium, confirmed in writing.'],['Drilling','Our team drills and connects your well.'],['Hand-over and support','We deliver, and support continues after drilling.']].map(([h,p],k)=>`<div class="st"><i>${k+1}</i><div><h3>${h}</h3><p>${p}</p></div></div>`).join('');
+$('gg').innerHTML=[['Delivery guarantee','We stand behind how we deliver your well.'],['Support after drilling','Warranty-backed support once the drilling is finished.'],['Licensed','Licensed to drill. [Add license number]'],['25 years','Experience behind every well we drill.']].map(([h,p])=>`<div class="card"><h3>${h}</h3><p>${p}</p></div>`).join('');
+$('cmp').innerHTML=[['Is the company licensed?','Yes, licensed','Ask for proof'],['Is delivery guaranteed?','Yes, an excellent delivery guarantee','Ask for it in writing'],['Is there support after drilling?','Yes, backed by warranty','Ask what is covered, and for how long'],['How long have they been drilling?','25 years','Ask for references'],['Can you read customer reviews?','50 five-star reviews','Ask where to find them']].map(([q,a,b])=>`<tr><th scope="row">${q}</th><td class="v">${a}</td><td class="o">${b}</td></tr>`).join('');
+$('gl').innerHTML=[['1562237548-3c36707230ce','Drilling tower against a blue sky'],['1561077097-454763d6a0a8','Heavy equipment on site'],['1560701517-c4f1ae856cba','Red heavy equipment'],['1538474705339-e87de81450e8','Metal pipes in black and white'],['1623008548370-90e908279959','Tap water flowing into a cup'],['1669139470813-827cbcf54b20','Hand holding a glass of water']].map(([i,a])=>`<img src="${U(i,600)}" alt="${a}" loading="lazy">`).join('');
+
+/* SERVICE AREAS NEAR ASSEN */
+$('ar').innerHTML = [
+  ['Assen', 'Our home base'],
+  ['Rolde', 'Nearby village'],
+  ['Smilde', 'Nearby town'],
+  ['Vries', 'Nearby village'],
+  ['Zuidlaren', 'Nearby town'],
+  ['Gieten', 'Nearby town'],
+  ['Beilen', 'Nearby town'],
+  ['Norg', 'Nearby village']
+].map(([city, description]) => `
+  <div>
+    <b>${city}</b>
+    <span>${description}</span>
+  </div>
+`).join('');
+
+/* TEAM: roles and professional expertise */
+const TEAM = [
+  {
+    name: 'Amarah',
+    photo: '1672748341520-6a839e6c05bb',
+    role: 'Drilling Operations Lead',
+    expertise: 'Well drilling operations, site preparation and coordinating drilling work.'
+  },
+  {
+    name: 'Sadeeq',
+    photo: '1646227655685-a530813759b3',
+    role: 'Ground Investigation Specialist',
+    expertise: 'Assessing ground conditions and supporting site investigations before drilling.'
+  },
+  {
+    name: 'Joseph',
+    photo: '1646227655718-dd721b681d91',
+    role: 'Well Installation Technician',
+    expertise: 'Well installation, pipework coordination and equipment setup.'
+  },
+  {
+    name: 'Kaleb',
+    photo: '1646227655588-b44f246c04fb',
+    role: 'Field Service Technician',
+    expertise: 'On-site support, project handover and post-installation assistance.'
+  }
+];
+
+$('tm').innerHTML = TEAM.map(member => `
+  <div class="team-card">
+    <img
+      src="${U(member.photo, 500)}"
+      alt="${member.name} — ${member.role}"
+      loading="lazy"
+    >
+    <h3>${member.name}</h3>
+    <p class="team-role">${member.role}</p>
+    <p class="team-expertise">${member.expertise}</p>
+  </div>
+`).join('');
+
+/* BLOG: practical guidance for prospective customers */
+const BLOG = [
+  {
+    category: 'PLANNING',
+    title: 'How do you prepare your property for well drilling?',
+    description: 'Learn what to consider before drilling begins, including site access, available space and discussing your water requirements.',
+    readTime: '5 min read'
+  },
+  {
+    category: 'GROUND CONDITIONS',
+    title: 'What affects the depth and cost of a water well?',
+    description: 'Ground conditions, the required water supply, drilling depth and installation choices can all influence the scope of a project.',
+    readTime: '6 min read'
+  },
+  {
+    category: 'WATER QUALITY',
+    title: 'What should you know about water from a private well?',
+    description: 'Understand why water testing matters, what to ask your installer and why water should not be assumed safe to drink without appropriate testing.',
+    readTime: '5 min read'
+  }
+];
+
+$('bl').innerHTML = BLOG.map((article, index) => `
+  <article class="card blog-card">
+    <div class="blog-top">
+      <span class="blog-number">0${index + 1}</span>
+      <span class="blog-category">${article.category}</span>
+    </div>
+
+    <h3>${article.title}</h3>
+
+    <p>${article.description}</p>
+
+    <div class="blog-bottom">
+      <span class="blog-time">${article.readTime}</span>
+      <a href="#contact"
+         aria-label="Discuss this topic with VDS: ${article.title}">
+        Ask us about this
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </article>
+`).join('');
+
+/* SEGMENT HELPER */
+function seg(box,fn){box.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;box.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));fn(b)})}
+
+/* VIDEO PLACEHOLDER */
+const CH=['Site check','Drilling','Water test','Hand-over'];
+$('chs').innerHTML=CH.map((c,k)=>`<button aria-pressed="${!k}">${c}</button>`).join('');
+seg($('chs'),b=>{$('vnote_').textContent='Chapter: '+b.textContent+'. Video placeholder. Add your own video file.'});
+$('play').onclick=()=>{$('vnote_').textContent='No video added yet. Add your own video file to play it here.'};
+
+
+/* PLANS: toggle per metre / per project */
+const unit = $('unit');
+const save = $('save_');
+
+let u = 'per metre';
+
+// EXAMPLE PRICES — replace with your actual VDS rates
+const prices = {
+  Basic: {
+    perMetre: 100,
+    perProject: 2000,
+    inclusions: [
+      'Basic well drilling',
+      'Initial site inspection',
+      'Standard installation'
+    ]
+  },
+  Standard: {
+    perMetre: 150,
+    perProject: 5000,
+    inclusions: [
+      'Well drilling and installation',
+      'Site assessment',
+      'Water flow testing',
+      'After-drilling support'
+    ]
+  },
+  Premium: {
+    perMetre: 200,
+    perProject: 10000,
+    inclusions: [
+      'Advanced well drilling',
+      'Detailed site assessment',
+      'Water flow testing',
+      'Installation and aftercare'
+    ]
+  }
+};
+
+function plans() {
+  $('pl').innerHTML = Object.entries(prices).map(([name, plan], k) => {
+    const price = u === 'per metre'
+      ? plan.perMetre
+      : plan.perProject;
+
+    const priceLabel = u === 'per metre'
+      ? `${eur(price)} / metre`
+      : `From ${eur(price)} / project`;
+
+    return `
+      <div class="card${k === 1 ? ' hi' : ''}">
+        <h3>${name}</h3>
+
+        <div class="price" style="color:inherit">
+          ${priceLabel}
+        </div>
+
+        <div class="note">
+          ${u === 'per metre' ? 'Price per metre drilled' : 'Starting project price'}
+        </div>
+
+        <ul class="ck">
+          ${plan.inclusions.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+
+        <a class="btn${k === 1 ? '' : ' g'}" href="#contact">
+          Book an inspection
+        </a>
+      </div>
+    `;
+  }).join('');
+
+  save.textContent = u === 'per project'
+    ? 'Project prices are indicative. Final pricing depends on site conditions and the agreed scope.'
+    : 'Per-metre prices are indicative. Final pricing depends on depth, ground conditions and the agreed scope.';
+}
+
+seg(unit, b => {
+  u = b.dataset.u;
+  plans();
+});
+
+plans();
+
+/* CALCULATOR
+   mid = BASE + depth(m) * RATE * diameterFactor * groundFactor ; range = mid*0.85 .. mid*1.15
+   BASE and RATE are PLACEHOLDERS (EUR). Replace with real VDS rates. */
+const BASE=1500,RATE=60;let gv=1;
+function calc(){const d=+$('c_depth').value,f=+$('c_dia').value,m=BASE+d*RATE*f*gv;$('c_dv').textContent=d+' m';$('c_out').textContent=eur(m*.85)+' to '+eur(m*1.15)}
+$('c_depth').oninput=calc;$('c_dia').onchange=calc;seg($('gr'),b=>{gv=+b.dataset.v;calc()});calc();
+
+/* FINANCING: monthly = a*i / (1-(1+i)^-n), i = APR/12. APR is a PLACEHOLDER. */
+const APR=6;let fn=24;
+function fin(){const a=+$('f_amt').value,i=APR/1200,m=a*i/(1-Math.pow(1+i,-fn));$('f_av').textContent=eur(a);$('f_m').textContent=eur(m)+' per month';$('f_i').textContent='Total interest: '+eur(m*fn-a)}
+$('f_amt').oninput=fin;seg($('fm'),b=>{fn=+b.textContent;fin()});fin();
+
+/* BEFORE / AFTER */
+$('ba_r').oninput=e=>$('ba').style.setProperty('--p',e.target.value+'%');
+
+
+/* TESTIMONIALS */
+const TS = [
+  [
+    'The team explained the drilling process clearly and kept me informed from the first inspection to completion. The service was professional throughout.',
+    'Pauline J.'
+  ],
+  [
+    'Everything was explained before the work started. The team answered my questions and helped me understand what was needed for my property.',
+    'Fabienne K.'
+  ],
+  [
+    'A professional experience from the initial site visit to the final handover. Communication was clear, and I knew what to expect at each stage.',
+    'Jeroen V.'
+  ]
+];
+
+let ti = 0, tt;
+
+$('td').innerHTML = TS.map((_, k) =>
+  `<button aria-label="Show review ${k + 1}"></button>`
+).join('');
+
+const dots = [...$('td').children];
+
+function tshow(n) {
+  ti = (n + TS.length) % TS.length;
+
+  $('tc').innerHTML = `
+    <div class="stars"
+         role="img"
+         aria-label="Customer rating not yet verified">
+      ★★★★★
+    </div>
+    <blockquote>${TS[ti][0]}</blockquote>
+    <p>${TS[ti][1]}</p>
+  `;
+
+  dots.forEach((d, k) =>
+    d.setAttribute('aria-current', k === ti)
+  );
+}
+
+function tauto() {
+  clearInterval(tt);
+
+  if (!RM) {
+    tt = setInterval(() => tshow(ti + 1), 7000);
+  }
+}
+
+$('tp').onclick = () => {
+  tshow(ti - 1);
+  tauto();
+};
+
+$('tn').onclick = () => {
+  tshow(ti + 1);
+  tauto();
+};
+
+dots.forEach((d, k) => {
+  d.onclick = () => {
+    tshow(k);
+    tauto();
+  };
+});
+
+tshow(0);
+tauto();
+
+/* FORM: submit the enquiry to the backend and MongoDB */
+$('cform').addEventListener('submit', async e=>{
+  e.preventDefault();
+  const bad=['f_n','f_p','f_e'].filter(i=>!$(i).value.trim()||!$(i).checkValidity());
+  if(bad.length){$('err_').textContent='Please complete your name, phone and a valid email.';$(bad[0]).focus();return}
+  const submitButton=$('cform').querySelector('button[type="submit"]');
+  submitButton.disabled=true;
+  submitButton.textContent='Sending…';
+  $('err_').textContent='';
+  try {
+    const response=await fetch('/api/leads',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        name:$('f_n').value.trim(),
+        phone:$('f_p').value.trim(),
+        email:$('f_e').value.trim(),
+        customerType:$('f_t').value,
+        preferredDay:$('f_d').value,
+        message:$('f_m2').value.trim()
+      })
+    });
+    const result=await response.json();
+    if(!response.ok) throw new Error(result.message||'Could not submit your request. Please try again.');
+    $('thx_n').textContent=$('f_n').value.trim().split(' ')[0];
+    $('cform').hidden=true;
+    $('thx').hidden=false;
+    $('thx').focus();
+  } catch(error) {
+    $('err_').textContent=error.message||'Something went wrong. Please try again.';
+  } finally {
+    submitButton.disabled=false;
+    submitButton.textContent='Book my inspection';
+  }
+});
+
+/* MENU */
+const menu=$('menu'),mb=$('mb');
+function menuSet(o){menu.classList.toggle('open',o);mb.setAttribute('aria-expanded',o);if(o)$('mx').focus();else mb.focus()}
+mb.onclick=()=>menuSet(true);$('mx').onclick=()=>menuSet(false);
+menu.querySelectorAll('a').forEach(a=>a.onclick=()=>{menu.classList.remove('open');mb.setAttribute('aria-expanded',false)});
+addEventListener('keydown',e=>{if(e.key==='Escape'){if(menu.classList.contains('open'))menuSet(false);else if(!$('cw').hidden)chatSet(false)}});
+
+
+/* CHAT — AI CONNECTED */
+const chatHistory = [];
+let chatBusy = false;
+
+const chatForm = $('chatForm');
+const chatInput = $('chatInput');
+const chatSend = $('chatSend');
+const chatLog = $('log_');
+
+const chatQuestions = {
+  en: {
+    'Opening hours': 'Opening hours',
+    'Where are you?': 'Where are you?',
+    'Book an inspection': 'Book an inspection',
+    'Plans': 'Plans'
+  },
+  nl: {
+    'Opening hours': 'Openingstijden',
+    'Where are you?': 'Waar zijn jullie gevestigd?',
+    'Book an inspection': 'Een inspectie aanvragen',
+    'Plans': 'Pakketten'
+  }
+};
+
+
+function chatLanguage() {
+  const selector = document.querySelector(
+    'select#languageSelect, #languageSelect'
+  );
+
+  if (selector && selector.value) {
+    return selector.value.toLowerCase().startsWith('nl') ? 'nl' : 'en';
+  }
+
+  return (document.documentElement.lang || 'en')
+    .toLowerCase()
+    .startsWith('nl')
+      ? 'nl'
+      : 'en';
+}
+
+
+function renderChatQuestions() {
+  const lang = chatLanguage();
+  const questions = chatQuestions[lang] || chatQuestions.en;
+
+  $('chips').innerHTML = Object.values(questions)
+    .map(question =>
+      `<button type="button">${question}</button>`
+    )
+    .join('');
+
+  chatInput.placeholder = lang === 'nl'
+    ? 'Typ uw vraag...'
+    : 'Type your question...';
+
+  chatInput.setAttribute(
+    'aria-label',
+    lang === 'nl' ? 'Typ uw vraag' : 'Type your question'
+  );
+
+  chatSend.textContent = lang === 'nl' ? 'Verstuur' : 'Send';
+}
+
+function say(text, me = false) {
+  const p = document.createElement('p');
+  p.textContent = text;
+
+  if (me) p.className = 'me';
+
+  chatLog.appendChild(p);
+  chatLog.scrollTop = chatLog.scrollHeight;
+}
+
+async function sendChatMessage(text) {
+  const message = text.trim();
+
+  if (!message || chatBusy) return;
+
+  say(message, true);
+  chatHistory.push({ role: 'user', content: message });
+
+  chatBusy = true;
+  chatInput.disabled = true;
+  chatSend.disabled = true;
+  chatSend.textContent = chatLanguage() === 'nl'
+    ? 'Even wachten...'
+    : 'Thinking...';
+
+  const waiting = document.createElement('p');
+  waiting.textContent = chatLanguage() === 'nl'
+    ? 'Ik zoek het voor u uit...'
+    : 'Let me check that for you...';
+  waiting.setAttribute('aria-live', 'polite');
+  chatLog.appendChild(waiting);
+  chatLog.scrollTop = chatLog.scrollHeight;
+
+  try {
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message,
+        history: chatHistory.slice(0, -1).slice(-8)
+      })
+    });
+
+    const data = await response.json();
+    waiting.remove();
+
+    if (!response.ok || !data.success || !data.reply) {
+      throw new Error(data.message || 'Chat request failed');
+    }
+
+    say(data.reply);
+    chatHistory.push({ role: 'assistant', content: data.reply });
+
+    // Keep the local conversation history bounded.
+    if (chatHistory.length > 10) {
+      chatHistory.splice(0, chatHistory.length - 10);
+    }
+  } catch (error) {
+    waiting.remove();
+
+    say(chatLanguage() === 'nl'
+      ? 'Sorry, de chat is tijdelijk niet beschikbaar. Probeer het opnieuw of gebruik het contactformulier.'
+      : 'Sorry, chat is temporarily unavailable. Please try again or use the contact form.');
+
+    console.error('Ask VDS chat error:', error);
+  } finally {
+    chatBusy = false;
+    chatInput.disabled = false;
+    chatSend.disabled = false;
+    renderChatQuestions();
+    chatInput.focus();
+  }
+}
+
+$('chips').onclick = event => {
+  const button = event.target.closest('button');
+  if (!button) return;
+
+  const question = button.textContent.trim();
+  chatInput.value = question;
+  sendChatMessage(question);
+};
+
+chatForm.addEventListener('submit', event => {
+  event.preventDefault();
+
+  if (chatBusy) return;
+
+  const message = chatInput.value.trim();
+  if (!message) return;
+
+  chatInput.value = '';
+  sendChatMessage(message);
+});
+
+function chatSet(open) {
+  $('cw').hidden = !open;
+  $('cp').setAttribute('aria-expanded', String(open));
+  $('tip_').hidden = true;
+
+  if (open) {
+    renderChatQuestions();
+    chatInput.focus();
+  } else {
+    $('cp').focus();
+  }
+}
+
+$('cp').onclick = () => chatSet($('cw').hidden);
+$('cx').onclick = () => chatSet(false);
+
+renderChatQuestions();
+
+
+/* SCROLL: header solid + back-to-top after 600px */
+const hd=$('hd'),bt=$('bt');
+function sc(){hd.classList.toggle('sc',scrollY>40);bt.classList.toggle('show',scrollY>600)}
+addEventListener('scroll',sc,{passive:true});sc();
+bt.onclick=()=>document.getElementById('top').scrollIntoView({behavior:RM?'auto':'smooth'});
+
+
+
+/* BILINGUAL TRANSLATION: static and JavaScript-generated content */
+const languageSelect = document.getElementById('languageSelect');
+
+const NL = {
+  'Well drilling in Assen': 'Waterputboringen in Assen',
+  'Open menu': 'Menu openen',
+  'Close menu': 'Menu sluiten',
+
+  'Book an inspection': 'Inspectie aanvragen',
+  'What we do': 'Onze diensten',
+  'How it works': 'Hoe het werkt',
+  'Guarantee': 'Garantie',
+  'Plans': 'Pakketten',
+  'Estimate': 'Prijsindicatie',
+  'Gallery': 'Galerij',
+  'Reviews': 'Beoordelingen',
+  'Where we work': 'Werkgebied',
+  'Team': 'Ons team',
+  'Contact': 'Contact',
+
+  'We drill wells that give': 'Wij boren waterputten voor',
+  'quality water': 'kwalitatief goed water',
+  'clean water': 'schoon water',
+  'water you trust': 'water waarop u kunt vertrouwen',
+  'your own water': 'uw eigen watervoorziening',
+  'Licensed well drilling in Assen for homeowners, investors and developers.':
+    'Professionele waterputboringen in Assen voor particulieren, investeerders en projectontwikkelaars.',
+  'Call us': 'Bel ons',
+
+  'See how we work before you commit':
+    'Ontdek onze werkwijze voordat u beslist',
+  'Book an inspection and we will talk through what drilling a well on your plot involves.':
+    'Vraag een inspectie aan. We bespreken wat het boren van een waterput op uw terrein inhoudt.',
+  'Book an inspection': 'Inspectie aanvragen',
+  'Water you can count on, from a licensed team':
+    'Betrouwbaar water van een professioneel team',
+  'Licensed well drilling': 'Professionele waterputboringen',
+  'Excellent delivery guarantee': 'Uitstekende oplevergarantie',
+  'Support after drilling, backed by warranty':
+    'Ondersteuning na het boren, met garantie',
+  '25 years of experience': '25 jaar ervaring',
+  'Inspection fee': 'Inspectiekosten',
+  '100% FREE': '100% GRATIS',
+
+  'What we do': 'Onze diensten',
+  'Well drilling': 'Waterputboringen',
+  'Drilling and plumbing': 'Boren en leidingwerk',
+  'Support after drilling': 'Ondersteuning na het boren',
+  'Well drilling for homes, investment properties and development sites.':
+    'Waterputboringen voor woningen, investeringspanden en projectlocaties.',
+
+  'How it works': 'Hoe het werkt',
+  'Five steps from first call to running water.':
+    'Vijf stappen van het eerste gesprek tot stromend water.',
+  'Book an inspection': 'Inspectie aanvragen',
+  'Site check': 'Locatie-inspectie',
+  'Choose a plan': 'Kies een pakket',
+  'Drilling': 'Boorwerkzaamheden',
+  'Hand-over and support': 'Oplevering en ondersteuning',
+
+  'Our guarantee': 'Onze garantie',
+  'Delivery guarantee': 'Oplevergarantie',
+  'Support after drilling': 'Ondersteuning na het boren',
+  'Licensed': 'Gecertificeerd',
+  '25 years': '25 jaar',
+
+  'Three plans to match your site and budget. Final prices are confirmed at the inspection.':
+    'Drie pakketten passend bij uw locatie en budget. De definitieve prijs wordt na de inspectie bevestigd.',
+  'Per metre': 'Per meter',
+  'Per project': 'Per project',
+  'Basic': 'Basis',
+  'Standard': 'Standaard',
+  'Premium': 'Premium',
+  'Prefer one fixed price? Switch to per project.':
+    'Liever één vaste prijs? Kies dan voor een projectprijs.',
+  'Saving versus per-metre pricing: [Add saving].':
+    'Besparing ten opzichte van de meterprijs: [besparing toevoegen].',
+
+  'Estimate your well': 'Bereken uw waterput',
+  'Two quick tools. The figures use placeholder rates, so treat them as an illustration until VDS adds its own.':
+    'Twee handige rekentools. De bedragen zijn voorbeelden en moeten nog door VDS worden bevestigd.',
+  'Drilling estimate': 'Boorprijsindicatie',
+  'Well depth:': 'Putdiepte:',
+  'Pipe diameter': 'Diameter van de buis',
+  'Ground type': 'Grondsoort',
+  'Soft': 'Zacht',
+  'Mixed': 'Gemengd',
+  'Hard': 'Hard',
+  'Payment plan': 'Betalingsplan',
+  'Amount:': 'Bedrag:',
+  'Months': 'Maanden',
+  'per month': 'per maand',
+  'Total interest:': 'Totale rente:',
+  'Illustrative range, not a quote. Final price follows your inspection.':
+    'Dit is een indicatie, geen offerte. De definitieve prijs volgt na inspectie.',
+  'Placeholder 6% yearly interest. Replace with the real financing terms.':
+    'Voorbeeldrente van 6% per jaar. Vervang deze door de werkelijke financieringsvoorwaarden.',
+
+  'What to ask any well driller':
+    'Wat u elke waterputboorder moet vragen',
+  'Five questions worth asking before you hire anyone, us included.':
+    'Vijf vragen die u moet stellen voordat u een boorbedrijf inschakelt.',
+  'Ask this': 'Vraag dit',
+  'Other providers': 'Andere aanbieders',
+  'Ask for proof': 'Vraag om bewijs',
+  'Ask for it in writing': 'Vraag om schriftelijke bevestiging',
+  'Ask what is covered, and for how long':
+    'Vraag wat gedekt is en hoelang de garantie geldt',
+  'Ask for references': 'Vraag om referenties',
+  'Can you read customer reviews?': 'Kunt u klantbeoordelingen bekijken?',
+
+  'On site': 'Op locatie',
+  'Drag the handle to compare a dry plot with a watered one.':
+    'Versleep de schuifregelaar om de afbeeldingen te vergelijken.',
+  'BEFORE': 'VOOR',
+  'AFTER': 'NA',
+  'Stock photos shown. Swap in real VDS project photos.':
+    'Er worden stockfoto’s getoond. Vervang deze door echte projectfoto’s van VDS.',
+
+  'What customers say': 'Wat klanten zeggen',
+  'Real quotes go here.': 'Hier komen echte klantbeoordelingen.',
+  'The team': 'Ons team',
+  'The people who will be on your site.':
+    'Maak kennis met de professionals die op uw locatie werken.',
+  'Before you drill': 'Voordat u gaat boren',
+  'Articles to help you plan.':
+    'Praktische artikelen die u helpen bij de voorbereiding.',
+  'KNOWLEDGE & ADVICE': 'KENNIS & ADVIES',
+  'PLANNING': 'VOORBEREIDING',
+  'GROUND CONDITIONS': 'GRONDOMSTANDIGHEDEN',
+  'WATER QUALITY': 'WATERKWALITEIT',
+  'Discuss your project': 'Bespreek uw project',
+  'Ask us about this': 'Vraag ons hierover',
+
+  'Based in Assen. Amerikaweg 23, 9407 TJ, Netherlands.':
+    'Gevestigd in Assen. Amerikaweg 23, 9407 TJ, Nederland.',
+  'Our home base': 'Onze thuisbasis',
+  'Nearby village': 'Dorp in de omgeving',
+  'Nearby town': 'Plaats in de omgeving',
+  'Find us on Google Maps ↗': 'Vind ons op Google Maps ↗',
+  'Open Google Maps & Get Directions':
+    'Open Google Maps en bekijk de route',
+  'View Larger Map': 'Bekijk de grotere kaart',
+
+  'Book your inspection': 'Vraag uw inspectie aan',
+  'Tell us about your site and we will plan a visit.':
+    'Vertel ons over uw locatie, dan plannen we een bezoek.',
+  'Full name': 'Volledige naam',
+  'Phone': 'Telefoonnummer',
+  'Email': 'E-mailadres',
+  'I am a': 'Ik ben een',
+  'Homeowner': 'Huiseigenaar',
+  'Investor': 'Investeerder',
+  'Real estate developer': 'Projectontwikkelaar',
+  'Preferred day': 'Gewenste datum',
+  'Anything we should know?': 'Wat moeten we nog weten?',
+  'Book my inspection': 'Vraag mijn inspectie aan',
+  'Sending…': 'Verzenden…',
+  'Please complete your name, phone and a valid email.':
+    'Vul uw naam, telefoonnummer en een geldig e-mailadres in.',
+  'Thank you,': 'Bedankt,',
+  'Your request is in. We will be in touch to confirm a day.':
+    'Uw aanvraag is ontvangen. We nemen contact met u op om een datum te bevestigen.',
+
+  'Company': 'Bedrijf',
+  'Get started': 'Aan de slag',
+  'What we do': 'Onze diensten',
+  'Our projects': 'Onze projecten',
+  'Service areas': 'Werkgebied',
+  'Find us on Google Maps': 'Vind ons op Google Maps',
+
+  'Questions? Ask here': 'Vragen? Stel ze hier',
+  'Chat': 'Chat',
+  'Ask VDS': 'Vraag het aan VDS',
+  'Hi! What would you like to know?':
+    'Hallo! Waarmee kunnen we u helpen?',
+  'Opening hours': 'Openingstijden',
+  'We are available Monday to Friday, 9:00 to 18:00.':
+    'We zijn bereikbaar van maandag tot en met vrijdag, van 09.00 tot 18.00 uur.',
+  'Where are you?':
+    'Wij zijn gevestigd aan Amerikaweg 23, 9407 TJ Assen, Nederland.',
+  'Use the booking form at the bottom of the page and we will confirm a day.':
+    'Gebruik het aanvraagformulier onderaan de pagina. We bevestigen daarna een datum.',
+  'We offer Basic, Standard and Premium plans. Book an inspection for a price that fits your site.':
+    'We bieden de pakketten Basis, Standaard en Premium. Vraag een inspectie aan voor een prijs die bij uw locatie past.',
+
+  'Licensed well drilling service in Assen, Netherlands.':
+    'Professionele waterputboringen in Assen, Nederland.',
+  'Social links:': 'Sociale media:',
+  'Follow us': 'Volg ons',
+  'Find us on Google Maps ↗': 'Vind ons op Google Maps ↗'
+};
+
+const originalLanguageText = new WeakMap();
+let currentLanguage = 'en';
+
+function translateTextNode(node) {
+  const parent = node.parentElement;
+
+  if (!parent) return;
+  if (parent.closest('script, style, svg, iframe')) return;
+  if (parent.closest('#languageSelect')) return;
+
+  if (!originalLanguageText.has(node)) {
+    originalLanguageText.set(node, node.nodeValue);
+  }
+
+  const original = originalLanguageText.get(node);
+  const trimmed = original.trim();
+
+  if (!trimmed) return;
+
+  let translated = currentLanguage === 'nl'
+    ? (NL[trimmed] || trimmed)
+    : trimmed;
+
+  // Keep whitespace and indentation around the text.
+  const start = original.match(/^\s*/)?.[0] || '';
+  const end = original.match(/\s*$/)?.[0] || '';
+
+  node.nodeValue = start + translated + end;
+}
+
+function translatePage(language) {
+  currentLanguage = language === 'nl' ? 'nl' : 'en';
+
+  document.documentElement.lang = currentLanguage;
+
+  document.querySelectorAll('body *').forEach(element => {
+    element.childNodes.forEach(node => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        translateTextNode(node);
+      }
+    });
+  });
+
+  // Translate common accessibility labels too.
+  document.querySelectorAll('[aria-label]').forEach(element => {
+    if (!element.dataset.originalAriaLabel) {
+      element.dataset.originalAriaLabel =
+        element.getAttribute('aria-label');
+    }
+
+    const original = element.dataset.originalAriaLabel;
+    element.setAttribute(
+      'aria-label',
+      currentLanguage === 'nl' ? (NL[original] || original) : original
+    );
+  });
+
+  localStorage.setItem('vds-language', currentLanguage);
+}
+
+if (languageSelect) {
+  languageSelect.value = localStorage.getItem('vds-language') || 'en';
+
+  languageSelect.addEventListener('change', () => {
+    translatePage(languageSelect.value);
+  });
+}
+
+// Translate the initial page.
+translatePage(languageSelect?.value || 'en');
+
+// Translate text added later by the existing JavaScript functions.
+const languageObserver = new MutationObserver(mutations => {
+  for (const mutation of mutations) {
+    mutation.addedNodes.forEach(node => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        translateTextNode(node);
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        node.querySelectorAll('*').forEach(element => {
+          element.childNodes.forEach(child => {
+            if (child.nodeType === Node.TEXT_NODE) {
+              translateTextNode(child);
+            }
+          });
+        });
+
+        node.childNodes.forEach(child => {
+          if (child.nodeType === Node.TEXT_NODE) {
+            translateTextNode(child);
+          }
+        });
+      }
+    });
+  }
+});
+
+languageObserver.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+
+
+/* ASK VDS — CONFIRMED CHAT LEAD SUBMISSION */
+const chatLeadPanel = $('chatLeadPanel');
+const chatLeadForm = $('chatLeadForm');
+const chatLeadEntry = $('chatLeadEntry');
+const chatLeadReview = $('chatLeadReview');
+const chatLeadSummary = $('chatLeadSummary');
+const chatLeadStatus = $('chatLeadStatus');
+const leadConfirmButton = $('leadConfirmButton');
+const leadReviewButton = $('leadReviewButton');
+const leadEditButton = $('leadEditButton');
+
+let pendingChatLead = null;
+let submittingChatLead = false;
+
+function openChatLeadForm() {
+  chatLeadPanel.hidden = false;
+  chatLeadEntry.hidden = false;
+  chatLeadReview.hidden = true;
+  chatLeadStatus.textContent = '';
+  chatLeadPanel.scrollIntoView({ block: 'nearest' });
+  $('leadName').focus();
+}
+
+function collectChatLead() {
+  const formData = new FormData(chatLeadForm);
+
+  return {
+    name: String(formData.get('name') || '').trim(),
+    phone: String(formData.get('phone') || '').trim(),
+    email: String(formData.get('email') || '').trim().toLowerCase(),
+    customerType: String(formData.get('customerType') || 'Homeowner'),
+    location: String(formData.get('location') || '').trim(),
+    preferredDay: String(formData.get('preferredDay') || '').trim(),
+    message: String(formData.get('message') || '').trim()
+  };
+}
+
+function displayChatLeadReview(lead) {
+  const details = [
+    ['Name', lead.name],
+    ['Phone', lead.phone],
+    ['Email', lead.email],
+    ['Customer type', lead.customerType],
+    ['Project location', lead.location],
+    ['Preferred day', lead.preferredDay || 'Not specified'],
+    ['Project details', lead.message || 'Not specified']
+  ];
+
+  chatLeadSummary.replaceChildren();
+
+  details.forEach(([label, value]) => {
+    const line = document.createElement('p');
+    const strong = document.createElement('strong');
+
+    strong.textContent = label + ': ';
+    line.appendChild(strong);
+    line.appendChild(document.createTextNode(value));
+    chatLeadSummary.appendChild(line);
+  });
+}
+
+leadReviewButton.addEventListener('click', event => {
+  event.preventDefault();
+
+  if (!chatLeadForm.reportValidity()) return;
+
+  pendingChatLead = collectChatLead();
+
+  // The backend stores project details in the existing message field.
+  if (pendingChatLead.location.length > 200) {
+    chatLeadStatus.textContent = 'Please shorten the project location.';
+    return;
+  }
+
+  displayChatLeadReview(pendingChatLead);
+  chatLeadEntry.hidden = true;
+  chatLeadReview.hidden = false;
+  chatLeadStatus.textContent =
+    'Please confirm that these details are correct before sending.';
+});
+
+leadEditButton.addEventListener('click', () => {
+  if (submittingChatLead) return;
+
+  chatLeadReview.hidden = true;
+  chatLeadEntry.hidden = false;
+  chatLeadStatus.textContent = '';
+  $('leadName').focus();
+});
+
+leadConfirmButton.addEventListener('click', async () => {
+  if (!pendingChatLead || submittingChatLead) return;
+
+  submittingChatLead = true;
+  leadConfirmButton.disabled = true;
+  leadEditButton.disabled = true;
+  leadConfirmButton.textContent = 'Sending...';
+  chatLeadStatus.textContent = 'Submitting your request...';
+
+  const lead = pendingChatLead;
+
+  const projectMessage = [
+    'Enquiry submitted through Ask VDS chat.',
+    'Project location: ' + lead.location,
+    lead.message ? 'Project details: ' + lead.message : ''
+  ].filter(Boolean).join('\n');
+
+  try {
+    const response = await fetch('/api/leads/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: lead.name,
+        phone: lead.phone,
+        email: lead.email,
+        customerType: lead.customerType,
+        preferredDay: lead.preferredDay,
+        message: projectMessage
+      })
+    });
+
+    const result = await response.json();
+
+    if (!response.ok || !result.success) {
+      throw new Error(
+        result.message || 'Your request could not be submitted.'
+      );
+    }
+
+
+    chatLeadForm.reset();
+    chatLeadReview.hidden = true;
+    chatLeadEntry.hidden = true;
+    chatLeadPanel.hidden = true;
+    chatLeadStatus.textContent = '';
+
+
+    say(
+      chatLanguage() === 'nl'
+        ? 'Bedankt! Uw aanvraag is verzonden. VDS neemt contact met u op om de details te bevestigen.'
+        : 'Thank you! Your request has been submitted. VDS will contact you to confirm the details.'
+    );
+
+    pendingChatLead = null;
+  } catch (error) {
+    console.error('Chat lead submission error:', error);
+
+    chatLeadStatus.textContent =
+      error.message ||
+      'Submission failed. Please try again or use the contact form.';
+
+    // Keep the customer's entered details available for a retry.
+  } finally {
+    submittingChatLead = false;
+    leadConfirmButton.disabled = false;
+    leadEditButton.disabled = false;
+    leadConfirmButton.textContent = 'Confirm and send';
+  }
+});
+
+
+/* ASK VDS — INSPECTION FORM ENTRY */
+const chatInspectionButton = $('chatInspectionButton');
+
+function updateInspectionButtonLanguage() {
+  const isDutch = chatLanguage() === 'nl';
+
+  chatInspectionButton.textContent = isDutch
+    ? 'Een inspectie aanvragen'
+    : 'Request an inspection';
+}
+
+chatInspectionButton.addEventListener('click', () => {
+  openChatLeadForm();
+
+  chatLeadPanel.scrollIntoView({
+    behavior: 'smooth',
+    block: 'nearest'
+  });
+});
+
+updateInspectionButtonLanguage();
+
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+:root{--ink:#0C2B3B;--ink2:#143F57;--acc:#FF8A1F;--lt:#EDF2F4;--mut:#607583;--line:#dbe5ea}
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6f8;color:var(--ink);font:15px/1.5 'Public Sans',system-ui,sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.shell{width:min(1180px,calc(100% - 32px));margin:36px auto}
+.card{background:white;border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:0 6px 22px rgba(12,43,59,.06)}
+.login{width:min(440px,100%);margin:8vh auto}
+.brand{font:800 34px/1 'Big Shoulders Display',Impact,sans-serif;letter-spacing:.2px}
+.brand span{color:#e97812}
+.muted{color:var(--mut);font-size:14px}
+label{display:block;font-weight:700;margin:16px 0 6px}
+input,select{width:100%;min-height:44px;border:1px solid #a9bac4;border-radius:7px;padding:9px 11px;background:white;color:var(--ink)}
+.primary,.secondary{min-height:44px;border-radius:7px;padding:0 16px;font-weight:700;border:1px solid var(--ink)}
+.primary{background:var(--acc);border-color:var(--acc);color:var(--ink);width:100%;margin-top:16px}
+.secondary{background:white;color:var(--ink)}
+.error{color:#b42318;min-height:18px}
+.topbar,.toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.topbar{margin-bottom:24px}
+.topbar p{margin:5px 0 0}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:20px}
+.stat span{display:block;color:var(--mut);font-size:13px}
+.stat strong{display:block;font-size:30px;margin-top:6px}
+h1{font-size:26px;margin:0}
+.toolbar p{margin:5px 0 0}
+.filters{display:grid;grid-template-columns:1fr 230px;gap:10px;margin:20px 0 10px}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:850px}
+th,td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+td small{display:block;color:var(--mut);margin-top:4px;max-width:250px;white-space:normal}
+td select{min-width:155px}
+.save-row{min-height:38px;padding:0 12px;border:1px solid var(--ink);border-radius:6px;background:var(--ink);color:white}
+.empty{text-align:center;padding:28px;color:var(--mut)}
+@media(max-width:650px){.shell{width:calc(100% - 20px);margin:14px auto}.card{padding:15px}.stats{gap:8px}.stat{padding:12px}.stat strong{font-size:24px}.stat span{font-size:12px}.filters{grid-template-columns:1fr}.toolbar{align-items:flex-start}}
