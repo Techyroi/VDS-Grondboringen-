@@ -1150,8 +1150,12 @@ const U=(id,w)=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=
 const eur=n=>n.toLocaleString('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0});
 const PHONE = '+2348166019129';
 
-document.querySelectorAll('.call').forEach(a => {
-  a.href = 'tel:' + PHONE;
+document.querySelectorAll('a.call').forEach(a => {
+  a.setAttribute('href', 'tel:+2348166019129');
+
+  a.addEventListener('click', function (event) {
+    event.stopPropagation();
+  });
 });
 document.documentElement.style.setProperty('--t',T+'ms');
 
