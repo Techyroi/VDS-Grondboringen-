@@ -924,7 +924,10 @@ td.o:before{content:"Other providers"}
   <div>
     <h2>Book your inspection</h2>
     <p class="lead">Tell us about your site and we will plan a visit.</p>
-    <address><b>VDS Grondboringen</b><br>Amerikaweg 23<br>9407 TJ Assen, Netherlands<br>Monday to Friday, 9:00 to 18:00<br>Phone: <span class="ph" style="color:var(--dm)">+31592268360</span><br>Email: <span class="ph" style="color:var(--dm)">info@vdsgrondboringen.nl</span></address>
+    <address><b>VDS Grondboringen</b><br>Amerikaweg 23<br>9407 TJ Assen, Netherlands<br>Monday to Friday, 9:00 to 18:00<br>Phone:
+<a href="tel:+2348166019129" style="color:var(--dm)">
+  +31592268360
+</a><br>Email: <span class="ph" style="color:var(--dm)">info@vdsgrondboringen.nl</span></address>
   </div>
   <div class="card">
     <!-- No backend: wire this form to your email/CRM service before launch. -->
@@ -1145,8 +1148,11 @@ td.o:before{content:"Other providers"}
 const $=id=>document.getElementById(id),T=4500,RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const U=(id,w)=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=75`;
 const eur=n=>n.toLocaleString('nl-NL',{style:'currency',currency:'EUR',maximumFractionDigits:0});
-const PHONE=''; /* add e.g. '+31...' to turn every "Call us" button into a tel: link */
-document.querySelectorAll('.call').forEach(a=>{if(PHONE)a.href='tel:'+PHONE});
+const PHONE = '+2348166019129';
+
+document.querySelectorAll('.call').forEach(a => {
+  a.href = 'tel:' + PHONE;
+});
 document.documentElement.style.setProperty('--t',T+'ms');
 
 /* HERO: [photoId, panX, panY] */
